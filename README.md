@@ -2,7 +2,7 @@
 
 ![Built with Flask](https://img.shields.io/badge/Built%20with-Flask-blue)
 
-This project is a minimal Flask API created to demonstrate backend development fundamentals.
+This project is a minimal Flask API created to demonstrate backend development fundamentals with docker support also.
 
 ---
 
@@ -22,3 +22,11 @@ This project is a minimal Flask API created to demonstrate backend development f
 ```bash
 git clone https://github.com/mrodr359/small-api.git
 cd small-api
+```
+
+### 2. Build And Run Docker Container
+
+```bash
+docker build -t smallapi . 
+docker-compose up -d
+```
