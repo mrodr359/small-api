@@ -1,5 +1,7 @@
 # 📡 Small API Project
 
+![Built with Flask](https://img.shields.io/badge/Built%20with-Flask-blue)
+
 This project is a minimal Flask API created to demonstrate backend development fundamentals.
 
 ---
